@@ -1,0 +1,51 @@
+# 🎮 Minecraft Autonomous AI Bot: Termux Setup Guide
+
+A simple, 24/7 running Minecraft AI Bot guide for Android/Termux.
+
+---
+
+## 🚀 1. Fresh Installation Commands
+
+Jab bilkul naye device/folder me setup karna ho:
+
+# System Update & Tools Install
+pkg update -y && pkg upgrade -y
+pkg install -y nodejs-lts nano tmux
+
+# Keep Termux Active in Background
+termux-wake-lock
+
+# Project Directory Setup
+mkdir -p ~/aternos-bot
+cd ~/aternos-bot
+npm init -y
+
+# Packages Install (Crash-Free Dependencies)
+npm install mineflayer mineflayer-pathfinder minecraft-data vec3 @google/genai
+
+# Create Code File
+nano bot.js
+
+Code paste karo --View Sript.txt in project copy and paste to termux 
+CTRL + O -> ENTER -> CTRL + X 
+
+2. How to Run the Bot 
+
+Option A: Direct Run (Simple & Fast) 
+termux-wake-lock
+cd ~/aternos-bot
+node bot.js 
+
+Option B: 24/7 Background Run with tmux (Recommended) 
+-bot band hi nhi hoga termux band bhi kar do tab bhi 
+
+termux-wake-lock
+cd ~/aternos-bot
+tmux new -s bot "node bot.js" 
+
+
+🔄 3. Quick Restart (Device Off hone ke baad)
+termux-wake-lock
+cd ~/aternos-bot
+node bot.js
+

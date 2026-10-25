@@ -1,0 +1,30 @@
+================================================================================
+          AGNI-PRASH AUTONOMOUS BOT SOFTWARE LICENSE & COPYRIGHT
+================================================================================
+
+Copyright (c) 2026 Swarit Netke (AgniPrash). All Rights Reserved.
+
+1. OWNERSHIP & INTELLECTUAL PROPERTY
+   This software, source code, and logic are the sole intellectual property of 
+   Swarit Netke (AgniPrash). No individual or entity may claim ownership or 
+   copyright over this code or any modified version of it.
+
+2. NON-COMMERCIAL USE ONLY (NO SELLING)
+   You are strictly permitted to run, use, and modify this software ONLY for 
+   personal and educational purposes. 
+   
+   STRICTLY PROHIBITED:
+   - Selling, reselling, or renting this software or any part of its source code.
+   - Packaging this code into paid services or subscription-based platforms.
+   - Monetizing or making monetary profit using this software.
+
+3. REDISTRIBUTION & CREDITS
+   If you share this code with anyone, you MUST preserve this LICENSE file and 
+   give full credit to the original creator: Swarit Netke (AgniPrash).
+
+4. NO LIABILITY / DISCLAIMER
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. THE AUTHOR 
+   SHALL NOT BE HELD LIABLE FOR ANY CLAIMS, DAMAGES, OR ACCOUNT BANS ARISING 
+   FROM THE USE OF THIS SOFTWARE.
+
+================================================================================
